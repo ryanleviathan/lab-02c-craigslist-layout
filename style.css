@@ -39,9 +39,9 @@ main {
 .big-middle {
     display: flex;
     flex-direction: row;
-    border-color: solid lightseagreen 3px;
+    grid-gap: 20px;
 }
 
-.will-something-change {
-    border-color: lightseagreen;
+.mids {
+    display: grid;
 }
